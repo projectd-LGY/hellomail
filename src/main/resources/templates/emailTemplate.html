@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>模板邮件</title>
+</head>
+<body>
+        <span th:text="${username}"></span><br>
+        <span th:text="${createTime}"></span><br>
+        <span th:text="${adress}"></span><br>
+        <span th:text="${userid}"></span><br>
+        <span th:text="${createDate}"></span><br>
+        <span th:text="${clientMail}"></span><br>
+        <span th:text="${time}"></span><br>
+
+        <span th:text="${data1}"></span><br>
+        <span th:text="${data2}"></span><br>
+        <span th:text="${data3}"></span><br>
+
+    <a href="https://github.com/Q-Angelo/summarize">Github</a><br>
+    <a th:href="@{https://www.imooc.com/u/{id}(id=${id})}" href="#">慕课网</a><br>
+</body>
+</html>
